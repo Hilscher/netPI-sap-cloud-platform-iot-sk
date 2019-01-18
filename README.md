@@ -2,11 +2,11 @@
 
 Made for [netPI](https://www.netiot.com/netpi/), the Raspberry Pi 3B Architecture based industrial suited Open Edge Connectivity Ecosystem
 
-### Debian Stretch with SAP Cloud Platform Internet of Things access, Starter Kit sample, SSH server and user root
+### Debian SAP Cloud Platform Internet of Things access, Starter Kit sample, SSH server and user root
 
 The image provided hereunder deploys a container with installed Starter Kit for SAP Cloud Platform (SCP) Internet of Things and Python code snippets (and more) giving you an idea of how to communicate to your personal SAP Cloud after a short setup.
 
-Base of this image builds a tagged version of [debian:stretch](https://hub.docker.com/r/resin/armv7hf-debian/tags/) with enabled [SSH](https://en.wikipedia.org/wiki/Secure_Shell), created user 'root' and preinstalled Stater Kit for the development environment Neo from [here](https://github.com/SAP/iot-starterkit/tree/master/neo).
+Base of this image builds [debian](https://www.balena.io/docs/reference/base-images/base-images/) with enabled [SSH](https://en.wikipedia.org/wiki/Secure_Shell), created user 'root' and preinstalled Stater Kit for the development environment Neo from [here](https://github.com/SAP/iot-starterkit/tree/master/neo).
 
 Before using the sample you have to sign up with [SAP Cloud Platform](https://cloudplatform.sap.com/index.html) and create an account (trial). At the time of image preparation SAP Cloud's "Neo Trial" (please choose this environment when asked) allows you to try out a limited set of features for free at an unlimited trial duration including the Internet of Things platform.
 
